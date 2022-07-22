@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MixinNetwork/supergroup.mixin.one/session"
-	"github.com/MixinNetwork/supergroup.mixin.one/views"
 	"github.com/bugsnag/bugsnag-go/errors"
 	"github.com/dimfeld/httptreemux"
+	"github.com/hawken-im/supergroup.mixin.one/session"
+	"github.com/hawken-im/supergroup.mixin.one/views"
 )
 
 func registerHanders(router *httptreemux.TreeMux) {

@@ -8,6 +8,7 @@ import (
 )
 
 //go:embed config.yaml
+
 var data []byte
 
 const BuildVersion = "BUILD_VERSION"

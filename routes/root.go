@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/MixinNetwork/supergroup.mixin.one/config"
-	"github.com/MixinNetwork/supergroup.mixin.one/views"
 	"github.com/dimfeld/httptreemux"
+	"github.com/hawken-im/supergroup.mixin.one/config"
+	"github.com/hawken-im/supergroup.mixin.one/views"
 )
 
 func RegisterRoutes(router *httptreemux.TreeMux) {

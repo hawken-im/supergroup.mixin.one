@@ -3,7 +3,7 @@ package durable
 import (
 	"time"
 
-	"github.com/MixinNetwork/supergroup.mixin.one/config"
+	"github.com/hawken-im/supergroup.mixin.one/config"
 	"golang.org/x/time/rate"
 )
 

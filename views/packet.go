@@ -5,7 +5,7 @@ import (
 	"time"
 
 	number "github.com/MixinNetwork/go-number"
-	"github.com/MixinNetwork/supergroup.mixin.one/models"
+	"github.com/hawken-im/supergroup.mixin.one/models"
 )
 
 type PreparationView struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/MixinNetwork/supergroup.mixin.one/durable"
+	"github.com/hawken-im/supergroup.mixin.one/durable"
 )
 
 type Event struct {

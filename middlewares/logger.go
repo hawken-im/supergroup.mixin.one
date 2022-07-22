@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	bot "github.com/MixinNetwork/bot-api-go-client"
-	"github.com/MixinNetwork/supergroup.mixin.one/durable"
-	"github.com/MixinNetwork/supergroup.mixin.one/session"
+	"github.com/hawken-im/supergroup.mixin.one/durable"
+	"github.com/hawken-im/supergroup.mixin.one/session"
 )
 
 func Log(handler http.Handler, client *durable.LoggerClient, service string) http.Handler {

@@ -9,9 +9,9 @@ import (
 	"time"
 
 	bot "github.com/MixinNetwork/bot-api-go-client"
-	"github.com/MixinNetwork/supergroup.mixin.one/models"
-	"github.com/MixinNetwork/supergroup.mixin.one/session"
 	"github.com/gofrs/uuid"
+	"github.com/hawken-im/supergroup.mixin.one/models"
+	"github.com/hawken-im/supergroup.mixin.one/session"
 )
 
 func loopPendingMessages(ctx context.Context) {

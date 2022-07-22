@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/MixinNetwork/supergroup.mixin.one/models"
+	"github.com/hawken-im/supergroup.mixin.one/models"
 )
 
 type UserView struct {

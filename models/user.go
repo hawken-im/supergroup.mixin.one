@@ -16,11 +16,11 @@ import (
 	"time"
 
 	bot "github.com/MixinNetwork/bot-api-go-client"
-	"github.com/MixinNetwork/supergroup.mixin.one/config"
-	"github.com/MixinNetwork/supergroup.mixin.one/durable"
-	"github.com/MixinNetwork/supergroup.mixin.one/externals"
-	"github.com/MixinNetwork/supergroup.mixin.one/session"
 	jwt "github.com/dgrijalva/jwt-go"
+	"github.com/hawken-im/supergroup.mixin.one/config"
+	"github.com/hawken-im/supergroup.mixin.one/durable"
+	"github.com/hawken-im/supergroup.mixin.one/externals"
+	"github.com/hawken-im/supergroup.mixin.one/session"
 )
 
 const (

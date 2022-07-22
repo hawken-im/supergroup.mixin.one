@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	bot "github.com/MixinNetwork/bot-api-go-client"
-	"github.com/MixinNetwork/supergroup.mixin.one/session"
+	"github.com/hawken-im/supergroup.mixin.one/session"
 	"github.com/stretchr/testify/assert"
 )
 

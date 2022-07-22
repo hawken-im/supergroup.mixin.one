@@ -2,7 +2,7 @@ supergroup.mixin.one is the source code of "Mixin 中文群"，which is an unlim
 
 ## NOTICE !!!
 
-Before you upgrade your group, please checkout [CHANGELOG.md](https://github.com/MixinNetwork/supergroup.mixin.one/blob/master/CHANGELOG.md) first. 
+Before you upgrade your group, please checkout [CHANGELOG.md](https://github.com/hawken-im/supergroup.mixin.one/blob/master/CHANGELOG.md) first. 
 
 ## Prepare
 

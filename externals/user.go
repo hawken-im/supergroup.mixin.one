@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/MixinNetwork/bot-api-go-client"
-	"github.com/MixinNetwork/supergroup.mixin.one/config"
-	"github.com/MixinNetwork/supergroup.mixin.one/session"
+	"github.com/hawken-im/supergroup.mixin.one/config"
+	"github.com/hawken-im/supergroup.mixin.one/session"
 )
 
 func UserMeFromCode(ctx context.Context, code, private, public string) (*bot.User, string, string, error) {

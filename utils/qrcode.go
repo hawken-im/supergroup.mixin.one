@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/MixinNetwork/supergroup.mixin.one/session"
+	"github.com/hawken-im/supergroup.mixin.one/session"
 	"github.com/tuotoo/qrcode"
 )
 

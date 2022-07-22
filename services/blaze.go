@@ -5,8 +5,8 @@ import (
 	"net/url"
 
 	bot "github.com/MixinNetwork/bot-api-go-client"
-	"github.com/MixinNetwork/supergroup.mixin.one/config"
 	"github.com/gorilla/websocket"
+	"github.com/hawken-im/supergroup.mixin.one/config"
 )
 
 func ConnectMixinBlaze(clientId, sessionId, sessionKey string) (*websocket.Conn, error) {

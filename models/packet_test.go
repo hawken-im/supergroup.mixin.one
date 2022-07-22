@@ -11,7 +11,7 @@ import (
 
 	bot "github.com/MixinNetwork/bot-api-go-client"
 	number "github.com/MixinNetwork/go-number"
-	"github.com/MixinNetwork/supergroup.mixin.one/session"
+	"github.com/hawken-im/supergroup.mixin.one/session"
 	"github.com/stretchr/testify/assert"
 )
 

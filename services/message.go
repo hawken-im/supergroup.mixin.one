@@ -14,10 +14,10 @@ import (
 
 	bot "github.com/MixinNetwork/bot-api-go-client"
 	number "github.com/MixinNetwork/go-number"
-	"github.com/MixinNetwork/supergroup.mixin.one/config"
-	"github.com/MixinNetwork/supergroup.mixin.one/models"
-	"github.com/MixinNetwork/supergroup.mixin.one/session"
 	"github.com/gorilla/websocket"
+	"github.com/hawken-im/supergroup.mixin.one/config"
+	"github.com/hawken-im/supergroup.mixin.one/models"
+	"github.com/hawken-im/supergroup.mixin.one/session"
 )
 
 const (

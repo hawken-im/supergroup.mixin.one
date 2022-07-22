@@ -16,10 +16,10 @@ import (
 	"unicode/utf8"
 
 	bot "github.com/MixinNetwork/bot-api-go-client"
-	"github.com/MixinNetwork/supergroup.mixin.one/config"
-	"github.com/MixinNetwork/supergroup.mixin.one/durable"
-	"github.com/MixinNetwork/supergroup.mixin.one/session"
 	"github.com/gofrs/uuid"
+	"github.com/hawken-im/supergroup.mixin.one/config"
+	"github.com/hawken-im/supergroup.mixin.one/durable"
+	"github.com/hawken-im/supergroup.mixin.one/session"
 	"golang.org/x/crypto/curve25519"
 )
 

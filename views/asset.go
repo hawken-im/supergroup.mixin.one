@@ -3,7 +3,7 @@ package views
 import (
 	"net/http"
 
-	"github.com/MixinNetwork/supergroup.mixin.one/models"
+	"github.com/hawken-im/supergroup.mixin.one/models"
 )
 
 func RenderAssets(w http.ResponseWriter, r *http.Request, assets []*models.Asset) {

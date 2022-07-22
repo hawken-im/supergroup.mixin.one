@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/MixinNetwork/bot-api-go-client"
-	"github.com/MixinNetwork/supergroup.mixin.one/config"
-	"github.com/MixinNetwork/supergroup.mixin.one/session"
+	"github.com/hawken-im/supergroup.mixin.one/config"
+	"github.com/hawken-im/supergroup.mixin.one/session"
 )
 
 func AssetList(ctx context.Context, authorizationID, private, scope string) ([]*bot.Asset, error) {

@@ -6,3 +6,4 @@ web/dist
 web/node_modules
 supergroup.mixin.one
 config.yaml
+secret

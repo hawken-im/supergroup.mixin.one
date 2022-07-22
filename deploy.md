@@ -7,9 +7,9 @@
 2. 需要安装 postgrsql
 
 ## 后端部署
-1. git pull https://github.com/MixinNetwork/supergroup.mixin.one.git 相关的代码
+1. git pull https://github.com/hawken-im/supergroup.mixin.one.git 相关的代码
 2. 把 ./config/config.tpl.yaml 复制到 ./config/config.yaml, 这个文件会直接打包项目里， 其中 mixin 的内容需要到 https://developers.mixin.one/dashboard 来生成
-3. 导入数据库，可以直接通过 pg 命令导入，想着文件在 https://github.com/MixinNetwork/supergroup.mixin.one/blob/master/models/schema.sql
+3. 导入数据库，可以直接通过 pg 命令导入，想着文件在 https://github.com/hawken-im/supergroup.mixin.one/blob/master/models/schema.sql
 4. 以上准备完，可以用打包完的文件在本地执行测试，有两个服务，一个是 api， 另一个是消息服务，分别通过下面两个命令开启
     a. ./supergroup.mixin.one -service http -e development
     b. ./supergroup.mixin.one -service message -e development
@@ -20,6 +20,6 @@
 
 ## 注意事项
 
-后期所有的修改都会放到 [CHANGELOG.md](https://github.com/MixinNetwork/supergroup.mixin.one/blob/master/CHANGELOG.md) 里
+后期所有的修改都会放到 [CHANGELOG.md](https://github.com/hawken-im/supergroup.mixin.one/blob/master/CHANGELOG.md) 里
 
-生产环境推荐用 systemd 来管理线程 [相关示例](https://github.com/MixinNetwork/supergroup.mixin.one/tree/master/config)
+生产环境推荐用 systemd 来管理线程 [相关示例](https://github.com/hawken-im/supergroup.mixin.one/tree/master/config)

@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MixinNetwork/supergroup.mixin.one/durable"
-	"github.com/MixinNetwork/supergroup.mixin.one/externals"
-	"github.com/MixinNetwork/supergroup.mixin.one/session"
+	"github.com/hawken-im/supergroup.mixin.one/durable"
+	"github.com/hawken-im/supergroup.mixin.one/externals"
+	"github.com/hawken-im/supergroup.mixin.one/session"
 	"github.com/lib/pq"
 )
 

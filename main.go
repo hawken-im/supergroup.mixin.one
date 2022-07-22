@@ -10,9 +10,9 @@ import (
 	_ "net/http/pprof"
 	"time"
 
-	"github.com/MixinNetwork/supergroup.mixin.one/config"
-	"github.com/MixinNetwork/supergroup.mixin.one/durable"
-	"github.com/MixinNetwork/supergroup.mixin.one/services"
+	"github.com/hawken-im/supergroup.mixin.one/config"
+	"github.com/hawken-im/supergroup.mixin.one/durable"
+	"github.com/hawken-im/supergroup.mixin.one/services"
 )
 
 func main() {

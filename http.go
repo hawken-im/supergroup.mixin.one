@@ -6,12 +6,12 @@ import (
 	"net/http"
 
 	"github.com/MixinNetwork/bot-api-go-client"
-	"github.com/MixinNetwork/supergroup.mixin.one/config"
-	"github.com/MixinNetwork/supergroup.mixin.one/durable"
-	"github.com/MixinNetwork/supergroup.mixin.one/middlewares"
-	"github.com/MixinNetwork/supergroup.mixin.one/routes"
 	"github.com/dimfeld/httptreemux"
 	"github.com/gorilla/handlers"
+	"github.com/hawken-im/supergroup.mixin.one/config"
+	"github.com/hawken-im/supergroup.mixin.one/durable"
+	"github.com/hawken-im/supergroup.mixin.one/middlewares"
+	"github.com/hawken-im/supergroup.mixin.one/routes"
 	"github.com/unrolled/render"
 )
 

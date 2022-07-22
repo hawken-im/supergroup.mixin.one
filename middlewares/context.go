@@ -3,8 +3,8 @@ package middlewares
 import (
 	"net/http"
 
-	"github.com/MixinNetwork/supergroup.mixin.one/durable"
-	"github.com/MixinNetwork/supergroup.mixin.one/session"
+	"github.com/hawken-im/supergroup.mixin.one/durable"
+	"github.com/hawken-im/supergroup.mixin.one/session"
 	"github.com/unrolled/render"
 )
 

@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/MixinNetwork/bot-api-go-client"
-	"github.com/MixinNetwork/supergroup.mixin.one/config"
+	"github.com/hawken-im/supergroup.mixin.one/config"
 )
 
 func CreateConversation(ctx context.Context, category, participantId string) error {

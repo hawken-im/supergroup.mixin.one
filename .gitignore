@@ -2,8 +2,10 @@
 deploy
 nginx.conf
 tasks
-web/dist
-web/node_modules
+client/dist
+client/node_modules
 supergroup.mixin.one
-config.yaml
+config/config.yaml
 secret
+config/api.hawken.im
+config/mud.hawken.im

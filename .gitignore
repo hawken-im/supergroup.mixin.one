@@ -9,3 +9,4 @@ config/config.yaml
 secret
 config/api.hawken.im
 config/mud.hawken.im
+config/supergroup.message.service

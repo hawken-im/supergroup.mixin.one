@@ -11,3 +11,4 @@ config/api.hawken.im
 config/mud.hawken.im
 config/supergroup.message.service
 client/env.local
+config/supergroup.http.service
